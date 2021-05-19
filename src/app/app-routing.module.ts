@@ -30,7 +30,8 @@ const routes: Routes = [
   {path:'movietheaters/edit/:id',component: EditMovieTheaterComponent},
 
   {path:'movies/create',component: CreateMovieComponent},
-  {path:'movies/edit/:id',component: EditMovieComponent}
+  {path:'movies/edit/:id',component: EditMovieComponent},
+  {path:'**',redirectTo: ''}
 
 ];
 
