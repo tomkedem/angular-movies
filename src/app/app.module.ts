@@ -9,7 +9,9 @@ import { GenericListComponent } from './utilities/generic-list/generic-list.comp
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { RetingComponent } from './utilities/reting/reting.component';
-import { LifecycletestComponent } from './lifecycletest/lifecycletest.component';
+import { HomeComponent } from './home/home.component';
+import { IndexGenresComponent } from './genres/index-genres/index-genres.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { LifecycletestComponent } from './lifecycletest/lifecycletest.component'
     GenericListComponent,
     MenuComponent,
     RetingComponent,
-    LifecycletestComponent
+    HomeComponent,
+    IndexGenresComponent
   ],
   imports: [
     BrowserModule,
